@@ -1,27 +1,27 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TechMagazineYT>TechMagazine</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: KOYEB
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- TechMagazine-AutoFilterBot is a open source project. 
-- Source - https://github.com/itsyogieu/TechMagazine-AutoFilterBot
+    START_TXT = """<b>Hᴇʏ👋</b> {}
 
-<b>DEVS:</b>
-- <a href=https://t.me/TechMagazineYT>TechMagazine</a>"""
+𝚒𝚊𝚖<a href='https://t.me/AbHii238'> <b>ʀᴏʟᴇx࿐</b></a> 𝚃𝚑𝚒𝚜 𝙱𝚘𝚝 𝙸𝚜 𝙼𝚊𝚍𝚎 𝙴𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚎𝚕𝚢 𝙵𝚘𝚛 𝚃𝚑𝚎 <b>"Mᴀʟʟᴜ Hᴜʙ Mᴏᴠɪᴇs"</b> 𝙶𝚛𝚘𝚞𝚙."""
+    HELP_TXT = """𝙷𝙴𝚈 {}
+
+𝚂𝚘𝚛𝚛𝚢 𝚈𝚘𝚞 𝙲𝚊𝚗'𝚝 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙😪."""
+    ABOUT_TXT = """
+✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <b>➝⃝Rᴏʟᴇx࿐</b>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <b>➝⃝ᴀʙʜɪᴊɪᴛʜ࿐</b>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <b>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <b>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <b>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <b>𝙷𝙴𝚁𝙾𝙺𝚄</b>
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: <b>v1.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
+    SOURCE_TXT = """<b>✯Modified By➡️</b> <a href=https://t.me/AbHii238><b>➝⃝ᴀʙʜɪᴊɪᴛʜ࿐</b></a>
+
+<b>©TeamEvaMaria<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and ʀᴏʟᴇx࿐ will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. TechMagazine-AutoFilterBot should have admin privillage.
+1. ʀᴏʟᴇx࿐ should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -32,15 +32,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- TechMagazine-AutoFilterBot Supports both url and alert inline buttons.
+- KαηηαвιяαN Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. TechMagazine-AutoFilterBot supports buttons with any telegram media type.
+2. KαηηαвιяαN supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/TechMagazineYT)</code>
+<code>[Button Text](buttonurl:https://t.me/Malluhubmovies)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -67,10 +67,10 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of KαηηαвιяαN
 
 <b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
+• /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
@@ -91,7 +91,8 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """
+★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
